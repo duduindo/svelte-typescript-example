@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+  "allowJs": true,
+  "target": "esnext",
+  "module": "esnext",
+  "noImplicitAny": true,
+  "removeComments": true,
+  "preserveConstEnums": true,
+  "moduleResolution": "node",
+  "sourceMap": true,
+  "baseUrl": ".",
+  "types": [
+    "jest"
+  ]
+  },
+  "include": [
+    "typings/**/*.d.ts",
+    "src/**/*",
+    "!node_modules"
+  ]
+}

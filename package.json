@@ -1,0 +1,43 @@
+{
+  "name": "svelte-typescript-simple",
+  "version": "1.0.0",
+  "description": "Svelte, Webpack, TypeScript, ESLint and Test(Jest)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config=jest.config.js",
+    "dev": "webpack --config webpack.config.js --progress --mode=development",
+    "server": "webpack-dev-server --config webpack.config.js --progress --watch",
+    "lint": "eslint --ext .js,.ts,.svelte src; exit 0"
+  },
+  "keywords": [
+    "svelte",
+    "typescript",
+    "eslint",
+    "jest",
+    "webpack"
+  ],
+  "author": "Eduardo Paixão (@duduindo)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/jest": "^24.0.20",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-svelte3": "^2.7.3",
+    "jest": "^24.9.0",
+    "jest-transform-svelte": "^2.1.0",
+    "stylus": "^0.54.7",
+    "svelte": "^3.12.1",
+    "svelte-loader": "^2.13.6",
+    "svelte-preprocess": "^3.1.4",
+    "ts-jest": "^24.1.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
